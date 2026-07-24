@@ -15,9 +15,12 @@
   },
   "scripts": {
     "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "dev:docker": "powershell ./dev.ps1",
+    "prod:docker": "powershell ./prod.ps1"
   },
   "repository": {
     "type": "git",
